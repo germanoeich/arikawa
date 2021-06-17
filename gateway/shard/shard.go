@@ -3,7 +3,7 @@ package shard
 import (
 	"context"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
+	"github.com/germanoeich/arikawa/v3/gateway"
 	"github.com/pkg/errors"
 )
 

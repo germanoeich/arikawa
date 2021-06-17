@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/diamondburned/arikawa/v3/utils/httputil"
-	"github.com/diamondburned/arikawa/v3/utils/json"
+	"github.com/germanoeich/arikawa/v3/utils/httputil"
+	"github.com/germanoeich/arikawa/v3/utils/json"
 	"github.com/pkg/errors"
 )
 

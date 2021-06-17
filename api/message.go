@@ -3,10 +3,10 @@ package api
 import (
 	"github.com/pkg/errors"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/internal/intmath"
-	"github.com/diamondburned/arikawa/v3/utils/httputil"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
+	"github.com/germanoeich/arikawa/v3/discord"
+	"github.com/germanoeich/arikawa/v3/internal/intmath"
+	"github.com/germanoeich/arikawa/v3/utils/httputil"
+	"github.com/germanoeich/arikawa/v3/utils/json/option"
 )
 
 const (

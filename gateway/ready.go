@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/diamondburned/arikawa/v3/discord"
+	"github.com/germanoeich/arikawa/v3/discord"
 )
 
 type (

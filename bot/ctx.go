@@ -12,14 +12,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/bot/extras/shellwords"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/gateway/shard"
-	"github.com/diamondburned/arikawa/v3/session"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/state/store"
-	"github.com/diamondburned/arikawa/v3/state/store/defaultstore"
+	"github.com/germanoeich/arikawa/v3/api"
+	"github.com/germanoeich/arikawa/v3/bot/extras/shellwords"
+	"github.com/germanoeich/arikawa/v3/gateway"
+	"github.com/germanoeich/arikawa/v3/gateway/shard"
+	"github.com/germanoeich/arikawa/v3/session"
+	"github.com/germanoeich/arikawa/v3/state"
+	"github.com/germanoeich/arikawa/v3/state/store"
+	"github.com/germanoeich/arikawa/v3/state/store/defaultstore"
 )
 
 // Prefixer checks a message if it starts with the desired prefix. By default,

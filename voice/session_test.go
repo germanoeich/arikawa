@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/internal/testenv"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/utils/wsutil"
-	"github.com/diamondburned/arikawa/v3/voice/voicegateway"
+	"github.com/germanoeich/arikawa/v3/discord"
+	"github.com/germanoeich/arikawa/v3/internal/testenv"
+	"github.com/germanoeich/arikawa/v3/state"
+	"github.com/germanoeich/arikawa/v3/utils/wsutil"
+	"github.com/germanoeich/arikawa/v3/voice/voicegateway"
 	"github.com/pkg/errors"
 )
 

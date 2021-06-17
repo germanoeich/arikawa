@@ -1,9 +1,9 @@
 package middlewares
 
 import (
-	"github.com/diamondburned/arikawa/v3/bot"
-	"github.com/diamondburned/arikawa/v3/bot/extras/infer"
-	"github.com/diamondburned/arikawa/v3/discord"
+	"github.com/germanoeich/arikawa/v3/bot"
+	"github.com/germanoeich/arikawa/v3/bot/extras/infer"
+	"github.com/germanoeich/arikawa/v3/discord"
 )
 
 func AdminOnly(ctx *bot.Context) func(interface{}) error {

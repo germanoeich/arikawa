@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/internal/backoff"
+	"github.com/germanoeich/arikawa/v3/api"
+	"github.com/germanoeich/arikawa/v3/discord"
+	"github.com/germanoeich/arikawa/v3/gateway"
+	"github.com/germanoeich/arikawa/v3/internal/backoff"
 	"github.com/pkg/errors"
 )
 

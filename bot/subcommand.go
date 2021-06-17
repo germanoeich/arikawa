@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
+	"github.com/germanoeich/arikawa/v3/gateway"
 )
 
 var (
@@ -184,7 +184,7 @@ func (sub *Subcommand) findMethod(method interface{}, inclEvents bool) *MethodCo
 //    // Output: main.T.Method_dash-fm
 //
 func runtimeMethodName(v interface{}) string {
-	// https://github.com/diamondburned/arikawa/issues/146
+	// https://github.com/germanoeich/arikawa/issues/146
 
 	ptr := reflect.ValueOf(v).Pointer()
 

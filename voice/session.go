@@ -5,19 +5,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/utils/handler"
+	"github.com/germanoeich/arikawa/v3/state"
+	"github.com/germanoeich/arikawa/v3/utils/handler"
 
 	"github.com/pkg/errors"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/internal/handleloop"
-	"github.com/diamondburned/arikawa/v3/internal/moreatomic"
-	"github.com/diamondburned/arikawa/v3/session"
-	"github.com/diamondburned/arikawa/v3/utils/wsutil"
-	"github.com/diamondburned/arikawa/v3/voice/udp"
-	"github.com/diamondburned/arikawa/v3/voice/voicegateway"
+	"github.com/germanoeich/arikawa/v3/discord"
+	"github.com/germanoeich/arikawa/v3/gateway"
+	"github.com/germanoeich/arikawa/v3/internal/handleloop"
+	"github.com/germanoeich/arikawa/v3/internal/moreatomic"
+	"github.com/germanoeich/arikawa/v3/session"
+	"github.com/germanoeich/arikawa/v3/utils/wsutil"
+	"github.com/germanoeich/arikawa/v3/voice/udp"
+	"github.com/germanoeich/arikawa/v3/voice/voicegateway"
 )
 
 // Protocol is the encryption protocol that this library uses.
